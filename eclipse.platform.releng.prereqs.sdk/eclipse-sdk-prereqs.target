@@ -92,6 +92,18 @@
        <unit id="org.eclipse.cdt.core.win32.x86_64" version="12.3.0.202512021919"/>
        <unit id="org.eclipse.cdt.core.win32.aarch64" version="12.3.0.202512021919"/>
     </location>
+    <!-- CDT loongarch64 fragment from local fork (upstream PR pending) -->
+    <location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="error" type="Maven">
+       <dependencies>
+          <dependency>
+             <groupId>org.eclipse.cdt</groupId>
+             <artifactId>org.eclipse.cdt.core.linux.loongarch64</artifactId>
+             <version>12.3.0</version>
+             <type>jar</type>
+          </dependency>
+       </dependencies>
+    </location>
+
 
     <!-- uncomment 'eclipse_home' location, with text editor, for use in Eclipse IDE
     <location path="${eclipse_home}" type="Profile"/>
